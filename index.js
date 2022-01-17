@@ -53,15 +53,15 @@ function Back() {
 
 function LikeButton(no, likes) {
   var lb = document.getElementById(`click${no}`); // get the Id of each post respective to their number assigned
-  if (lb.style.webkitTextFillColor == "red") { // to unlike the post (white outline of the heart)
+  if (lb.style.webkitTextFillColor == "pink") { // to unlike the post (white outline of the heart)
     lb.style.webkitTextStroke = "2px rgb(255, 255, 255)"
     lb.style.webkitTextFillColor = "rgba(255, 255, 255, 0)"
     document.getElementById(`nameShow${no}`).innerHTML = likes + " likes" // display original number of likes
 
   }
   else { // to like the post (red heart)
-    lb.style.webkitTextFillColor = "red"
-    lb.style.webkitTextStroke = "2px red"
+    lb.style.webkitTextFillColor = "pink"
+    lb.style.webkitTextStroke = "2px pink"
     document.getElementById(`nameShow${no}`).innerHTML = likes + 1 + " likes" // display an increment in likes by one
   }
 
