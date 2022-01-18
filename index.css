@@ -182,3 +182,10 @@ img {
     font-size: 18px;
     margin-top: -8px;
 }
+
+#imageRef {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    display: none;
+}

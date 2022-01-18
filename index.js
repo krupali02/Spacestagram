@@ -37,7 +37,7 @@ function DisplayorNo() {
   document.getElementById("intro").style.display = 'none'; // do not dispaly the intro
   document.getElementById("backButton").style.display = 'block'; // display the 'back' button
   document.getElementById("nameLabel").style.display = 'block'; // display the application name
-
+  document.getElementById("imageRef").style.display = 'block'; // display the application name
 }
 
 function Back() {
