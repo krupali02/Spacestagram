@@ -47,6 +47,8 @@ function Back() {
   document.getElementById("intro").style.display = 'block'; // display the main text
   document.getElementById("backButton").style.display = 'none'; // do not display the back button
   document.getElementById("nameLabel").style.display = 'none'; // do not display the application name
+  document.getElementById("imageRef").style.display = 'none'; // do not display the application name
+
 }
 
 
