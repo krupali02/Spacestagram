@@ -184,7 +184,7 @@ img {
 }
 
 #imageRef {
-    color: white;
+    color: rgb(155, 155, 155);
     text-align: center;
     font-size: 12px;
     display: none;
